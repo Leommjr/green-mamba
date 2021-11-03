@@ -1,0 +1,28 @@
+{
+  "name": "green-mamba",
+  "version": "1.0.0",
+  "description": "Proxy Api for secure Authentication/Authorization with OAuth Framework",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leommjr/green-mamba.git"
+  },
+  "author": "Leonardo Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leommjr/green-mamba/issues"
+  },
+  "homepage": "https://github.com/Leommjr/green-mamba#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.14"
+  }
+}
